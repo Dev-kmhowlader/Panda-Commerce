@@ -1,0 +1,220 @@
+/* Google font */
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;1,100&display=swap" rel="stylesheet">
+<!-- style sheet CSS -->
+
+
+body {
+    margin: 0;
+    
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+    
+}
+.hero-section {
+    display: flex;
+    align-items: center; 
+    background-color: #FEEAE9; 
+    padding: 50px 40px;
+    border-radius: 10px;
+    row-gap: 12px;
+}
+
+.pink {
+    color: #ff136f;
+    font-size: 38px;
+   }
+.hero-section .content span {
+    width: 50%;
+    display: block;
+    
+   
+}
+
+.hero-section .content a {
+    font-size: 15px;
+    color: white;
+    background-color: #ff136f;
+    text-decoration: none;
+    padding: 12px 15px;
+    border-radius: 7px;
+    text-align: center;
+}
+  
+
+.hero-section .content h1 ,p {
+    margin: 0;
+}
+ 
+.hero-section .content img {
+    width: 60%;
+}
+.hero-section .content h1 {
+    font-size: 35px; 
+}
+ .hero-section.content p {
+    font-size: 16px;
+} 
+.slider-info {
+    display: flex; 
+    flex-direction: column; 
+    row-gap: 20px;
+}
+.slider-info a {
+width: 80px;
+
+}
+.slider-image {
+    display: flex;
+    justify-content: center;
+}
+/* Ctagories */
+
+.categories {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    padding: 50px 0;
+
+}
+
+.categories h1 {
+margin: 0;
+font-size: 50px;
+}
+
+.categories h2{
+    font-size: 40px;
+    padding: 0 5px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.categories-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  padding: 10px 70px;
+  border-radius: 10px;
+  column-gap: 120px;
+  color: white
+  }
+
+  #watch {
+    background-image: linear-gradient(to right bottom, #ff9c35, #ffa92e, #ffb527, #ffc31f, #ffd019);
+  }
+  #bag {
+    background-image: linear-gradient(to bottom, #ff589b, #ff4c91, #ff3e86, #ff2d7b, #ff136f);
+  }
+  #shoes {
+    background-image: linear-gradient(to right bottom, #4289ff, #2274ff, #0c5dff, #2240ff, #3f07f8);
+  }
+/* Categores end */
+/* footer section start  */
+
+.shoes-info img{
+   width: 350px;
+}
+
+
+.shoes-info{
+    display: flex;
+    column-gap: 150px;
+    text-align: center;
+   }
+   .shoes10 {
+    width: 400px;
+    height: 450px;
+    border-radius: 10px;
+    background-color: #4289ff;
+   }
+.shoes-info a {
+    font-size: 18px;
+    color: white;
+    background-color: #ff136f;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 7px;
+    text-align: center;}
+
+    .shoes-info p{
+        font-size:20px;
+    }
+
+.shoes-info span {
+    font-size: 20px;
+    color:  #ff136f;;
+    display: block;
+    padding-bottom: 20px;
+}
+.shoes h1 p{ 
+font-size: 20px;
+}
+/* Shoe section End  */
+/* backpack section start  */
+
+.last-step h1{
+    font-size: 30px;
+    margin-bottom: 5px;
+    text-align: center;
+    /* text-align: center; */
+ }
+ .last-step P{
+    font-size: 19px;
+    margin-bottom: 10px;
+    text-align: center;
+ }
+ .last-section {
+    background-color: #FEEAE9;
+    padding: 120px 10px;
+    margin: 100px auto;
+    align-items: center;
+    border-radius: 10px;
+
+  } 
+.last-step input[type="email"]{
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    /* max-width: 150%
+    height: 50% */
+    padding: 10px 80px;
+}
+.last-step input[type="submit"]{
+    padding: 10px 30px;
+    border-radius: 8px;
+    font-size: 20px;
+    border: none;
+    background-color: #ff136f;
+    color: #FEEAE9;
+    
+ }
+ .container .last-section {
+    justify-content: center;
+ }
+
+ ]
+ 
+
+
+ 
+
+
+
+
+
+
+
+    /* .shoes-info .shoes1{
+        box-shadow: 3px solid white;
+    } */
+   
+
+
+
